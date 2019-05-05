@@ -1,0 +1,35 @@
+.styFrame{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.styHeader{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    background-color: greenyellow;
+    height: 80px;
+}
+.styAside{
+    position: fixed;
+    top: 80px;
+    background-color: rgb(74, 125, 141);
+    width: 210px;
+    height: 100%;
+    z-index: 1001;
+}
+.styMain{
+    background-color: gray;
+    right: 0px;
+    margin-left: 210px;
+    padding-top: 80px;
+}
+.styFooter{
+    background-color: pink;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
